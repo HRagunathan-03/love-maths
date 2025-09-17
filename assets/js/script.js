@@ -87,7 +87,7 @@ if (operator === "+") {
 } else if (operator === "-") { 
     return [operand1 - operand2, "subtract"];
 } else if (operator === "/") { 
-    return [operand1 / operand2, "divide"];
+    return [operand1 / operand2, "division"];
 } else {
     alert(`Unimplemented operator ${operator}`);
     throw `Unimplemented operator ${operator}. Aborting!`;
